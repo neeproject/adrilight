@@ -178,7 +178,7 @@ namespace adrilight
             {
                 try
                 {
-                    const int baudRate = 576000;
+                    const int baudRate = 576000; //921600
                     string openedComPort = null;
 
                     while (!cancellationToken.IsCancellationRequested)
