@@ -33,7 +33,7 @@ uint8_t startIndex = 0;
 
 void setup()
 {
-  Serial.begin(1000000);
+  Serial.begin(576000);
   FastLED.clear(true);
   FastLED.addLeds<WS2812B, LED_DATA_PIN, GRB>(leds, NUM_LEDS);
   FastLED.setBrightness(currentBrightness);
